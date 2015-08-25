@@ -1,0 +1,165 @@
+/* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-image: url(images/headerbg.jpg);
+	background-repeat: repeat-x;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#topbar {
+	width: 100%;
+	height: 4px;
+	background-color: #B5D5B5;
+	border-bottom: 1px solid #FFF;
+}
+
+#container {
+	width: 780px;
+	margin: 0 auto;
+	padding: 10px 5px 5px 5px;
+	text-align: left;
+}
+
+#navcontainer {
+	width: 100%;
+	height: 40px;	
+	margin-bottom: 20px;
+}
+
+#navcontainer #logo {
+	position: relative;
+	width: 198px;
+	height: 37px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='templates/zpanelv3/images/logo.png',sizingMethod='scale');
+}
+
+html>body #navcontainer #logo {
+	width: 198px;
+	height: 37px;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+}
+
+#navcontainer #nav {
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#navcontainer #nav a {
+	color: #666;
+	text-decoration: none;
+	
+	border-right: 1px solid #CCC;
+	margin: 0 -.5em 0 .5em;
+	padding: 0 .5em 0 .5em;
+}
+
+#navcontainer #nav a:hover {
+	color: #000;
+}
+
+#infocontainer {
+	position: absolute;
+	width: 233px;
+}
+
+html>body #infocontainer {
+	position: absolute;
+	width: 233px;
+	margin-top: 15px;
+}
+
+#infocontainer table {
+	width: 233px;
+	border: 1px solid #B5D5B5;
+	padding: 2px;
+	margin-bottom: 10px;
+	background-color: #F0F7F0;
+}
+
+#infocontainer table tr td {
+	background-color: #C7E0C7;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	padding: 3px;
+}
+
+#infocontainer table tr td a {
+	color: #336600;
+	text-decoration: none;
+}
+
+#contentcontainer {
+	position: absolute;
+	margin: 0 0 0 250px;
+	width: 530px;
+}
+
+html>body #contentcontainer {
+	position: absolute;
+	margin: 15px 0 0 250px;
+	width: 530px;
+}
+
+/* Main page */
+.welcome {
+	border-bottom: 1px solid #CCC;
+	padding: 0 0 10px 0;
+	margin: 0;
+}
+
+h1 {
+        color: #C7E0C7;
+        font-size: 13pt;
+        margin: 0;
+        padding: 0 0 10px 0;
+}
+
+#mainnav h3 {
+	color: #C7E0C7;
+	font-size: 11pt;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+#mainnav table tr td {
+	text-align: center;
+	padding: 5px;
+}
+#mainnav table tr td a {
+	color: #336600;
+}
+/* Warning Messages */
+#warning {
+ width: 100%;
+ background: #FFC800 url(images/warning-box-tr.gif) no-repeat top right;
+ margin-bottom: 10px;
+ overflow: hidden;
+}
+#warning div {
+ background: transparent url(images/warning-box-tl.gif) no-repeat top left;
+}
+#warning div div {
+ background: transparent url(images/warning-box-br.gif) no-repeat bottom right;
+}
+#warning div div div {
+ background: transparent url(images/warning-box-bl.gif) no-repeat bottom left;
+ padding: 3px;
+}
+/* Confirmation Messages */
+.confirmation {
+ background-color: #F0F7F0;
+ border: 1px solid #B5D5B5;
+ margin: 0px;
+ padding: 2px;
+}
+.confirmation legend {
+        color: #360;
+        font-size: 11px;
+}
+

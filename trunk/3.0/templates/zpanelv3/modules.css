@@ -1,0 +1,103 @@
+/* mysql module */
+#mysql_information {
+}
+#mysql_information fieldset {
+        margin: 0px;
+        padding: 2px;
+        border: 1px solid #B5D5B5;
+}
+#mysql_bottom_padding {
+        padding-bottom: 30px;
+}
+#mysql_dbcontainer {
+        width: 20em;
+        margin-bottom: 20px;
+        padding: 0px;
+        float: right;
+}
+#mysql_dbcontainer fieldset {
+        border: 1px solid #B5D5B5;
+        padding: 5px 0px 0px 0px;
+        margin: 0px;
+}
+#mysql_dbcontainer fieldset li {
+        list-style-type: none;
+        background-color: #F0F7F0;
+        border-top: 1px solid #B5D5B5;
+        padding: 2px 0px 2px 5px;
+}
+#mysql_dbcontainer fieldset li #delete {
+        position: relative;
+        float: right;
+        width: 50px;
+        padding: 0px 5px 0px 7px;
+        background-color: #B5D5B5;
+}
+#mysql_dbcontainer fieldset li #delete a {
+        text-decoration: none;
+        color: #000000;
+}
+#mysql_dbcontainer fieldset li #delete:hover {
+        background-color: #FFF;
+}
+#mysql_information h1 {
+        font-size: 12px;
+        border-bottom: 1px solid #B5D5B5;
+        margin: 25px 0px 0px 0px;
+}
+
+/* phpmyadmin module */
+#mod_phpmyadmin #logo {
+        float: right;
+	margin-top: 10px;
+        background-image: url(../../modules/databases/phpmyadmin/pma_logo.gif);
+        width: 140px;
+        height: 75px;
+}
+#mod_phpmyadmin form {
+        margin: 30px 0px 0px 0px;
+        text-align: center;
+}
+
+/* Stats Module */
+.stat_header {
+        color: #E56717;
+        font-size: 13px;
+        font-weight: 800;
+        margin: 7px 0px 7px 0px;
+}
+#stat_current,
+#stat_perpage {
+        width: 100%;
+}
+#stat_current .colheader,
+#stat_perpage .colheader {
+        text-align: center;
+}
+#stat_current .colheader td,
+#stat_perpage .colheader td{
+        background-image: url('../../modules/tools/stats/images/hdr_grad.jpg');
+/*      border-bottom: 1px solid #000;*/
+}
+#stat_current .colstats,
+#stat_perpage .colpage {
+        text-align: center;
+}
+#stat_perpage {
+        width: 100%;
+}
+#stat_new img {
+        margin-top: 5px;
+        padding-top: 5px;
+}
+#stat_new .stat_fieldname {
+        color: darkblue;
+}
+
+/* Ticket Center */
+.ticketsys_newticket {
+	width: 100%;
+}
+.ticketsys_newticket tr .fieldname {
+	font-weight: 800;
+}

@@ -1,0 +1,63 @@
+/*
+#
+#  LOGIN CSS
+#
+*/
+
+body {
+	padding: 0;
+	margin: 0 auto;
+	background-image: url(images/loginbg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+#topbar {
+	width: 100%;
+	height: 25px;
+	background-color: #9C0;
+	text-align: right;
+	color: #FFF;
+}
+
+#topbar a {
+	color: #FFF;
+}
+
+#logincontainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 338px;
+	height: 220px;
+	padding: 1px;
+	border: 2px solid #9C0;
+	text-align: left;
+	margin-top: 50px;
+	background-color: #FFF;
+}
+
+#logincontainer span {
+	color: #666666;
+	font-size: 18pt;
+}
+
+#zplogo {
+	width: 105px;
+	height: 220px;
+	background-image: url(images/loginleft.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-color: #AFEA00;
+	float: left;
+	margin-right: 10px;
+}
+
+* html #zplogo {
+	height: 240px;
+}
+
+a {
+	color: #000;
+}
